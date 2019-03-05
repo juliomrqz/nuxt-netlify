@@ -1,0 +1,58 @@
+{
+  "name": "@bazzite/nuxt-netlify",
+  "version": "0.1.0-alpha.0",
+  "description": "Automatically generates _headers and _redirects for Netlify in Nuxt.js projects.",
+  "main": "lib/index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "yarn lint && jest",
+    "lint": "eslint --ext .js lib test",
+    "changelog": "conventional-changelog -p angular -r 2 -i CHANGELOG.md -s"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bazzite/nuxt-netlify.git"
+  },
+  "author": "Bazzite <opensource@bazzite.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bazzite/nuxt-netlify/issues"
+  },
+  "homepage": "https://www.bazzite.com/docs/nuxt-netlify/?utm_source=npm&utm_medium=readme&utm_campaign=nuxt-netlify",
+  "dependencies": {
+    "consola": "^2.5.6",
+    "fs-extra": "^7.0.1",
+    "lodash.template": "^4.4.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^7.5.2",
+    "@commitlint/config-conventional": "^7.5.0",
+    "conventional-changelog-cli": "^2.0.12",
+    "eslint": "^5.14.1",
+    "eslint-config-dev": "^2.0.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jest": "^22.3.0",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "eslint-plugin-vue": "^5.2.2",
+    "husky": "^1.3.1",
+    "jest": "^24.1.0",
+    "sharp": "^0.21.3",
+    "upath": "^1.1.0"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
+      "precommit": "lint-staged"
+    }
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "coverageDirectory": "./coverage/",
+    "collectCoverage": true
+  }
+}
