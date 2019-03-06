@@ -60,7 +60,7 @@ or
 
 ## Usage
 
-The default configuration will generate an empty `_redirects` file and a `_headers` file with the following:
+The default configuration will generate an empty `_redirects` file and a `_headers` file with some caching and security headers:
 
 ```text
 # _headers
@@ -78,7 +78,12 @@ The default configuration will generate an empty `_redirects` file and a `_heade
   Cache-Control: no-cache
 ```
 
-> :warning: the `/_nuxt/*` reference automatically changes with the value of `build.publicPath`.
+> :warning: the `/_nuxt/*` reference automatically changes with the value of [`build.publicPath`][nuxt-docs-build-publicPath].
+
+### Headers
+
+The headers object represents a JS version of the [Netlify `_headers` file format][netlify-headers-and-basic-auth]. You should pass in a object with string keys (representing the paths) and an array of strings for each header. For example:
+
 
 You can add extra headers as follows:
 
@@ -123,7 +128,9 @@ that will generate:
   Cache-Control: public, max-age=86400
 ```
 
-You can also add redirects, as many as you like. For example:
+### Redirects
+
+You can also add redirects, as many as you like. You should pass in an array of objects with the redirection attributes. For example:
 
 
 ```js
@@ -210,6 +217,7 @@ Code released under the [MIT License][license-page].
 [docs-es]: https://www.bazzite.com/es/docs/nuxt-netlify/?utm_source=github&utm_medium=readme&utm_campaign=nuxt-netlify
 [docs-configuration]: https://www.bazzite.com/docs/nuxt-netlify/configuration/?utm_source=github&utm_medium=readme&utm_campaign=nuxt-netlify
 [nuxt-docs-build-publicPath]: https://nuxtjs.org/api/configuration-build#publicPath
+[netlify-headers-and-basic-auth]: https://www.netlify.com/docs/headers-and-basic-auth/
 [issues]: https://github.com/bazzite/nuxt-netlify/issues
 [twitter]: https://bazzite.xyz/Twitter
 [bazzite-website]: https://www.bazzite.com?utm_source=github&utm_medium=readme&utm_campaign=nuxt-netlify
