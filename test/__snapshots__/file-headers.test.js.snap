@@ -1,0 +1,118 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`file _headers can add extra headers 1`] = `
+"## Created with https://github.com/bazzite/nuxt-netlify
+/templates/index.html
+  X-Frame-Options: DENY
+  X-XSS-Protection: 1; mode=block
+
+/templates/index2.html
+  X-Frame-Options: SAMEORIGIN
+
+/something/*
+  Basic-Auth: someuser:somepassword anotheruser:anotherpassword
+
+/*
+  Referrer-Policy: origin
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: DENY
+  X-XSS-Protection: 1; mode=block
+
+/_nuxt/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/sw.js
+  Cache-Control: no-cache
+
+"
+`;
+
+exports[`file _headers can add extra headers with no defaults 1`] = `
+"## Created with https://github.com/bazzite/nuxt-netlify
+/templates/index.html
+  X-Frame-Options: DENY
+  X-XSS-Protection: 1; mode=block
+
+/templates/index2.html
+  X-Frame-Options: SAMEORIGIN
+
+/something/*
+  Basic-Auth: someuser:somepassword anotheruser:anotherpassword
+
+"
+`;
+
+exports[`file _headers can disable caching headers 1`] = `
+"## Created with https://github.com/bazzite/nuxt-netlify
+/*
+  Referrer-Policy: origin
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: DENY
+  X-XSS-Protection: 1; mode=block
+
+"
+`;
+
+exports[`file _headers can disable security & caching headers 1`] = `
+"## Created with https://github.com/bazzite/nuxt-netlify
+"
+`;
+
+exports[`file _headers can disable security headers 1`] = `
+"## Created with https://github.com/bazzite/nuxt-netlify
+/_nuxt/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/sw.js
+  Cache-Control: no-cache
+
+"
+`;
+
+exports[`file _headers can generate default file 1`] = `
+"## Created with https://github.com/bazzite/nuxt-netlify
+/*
+  Referrer-Policy: origin
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: DENY
+  X-XSS-Protection: 1; mode=block
+
+/_nuxt/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/sw.js
+  Cache-Control: no-cache
+
+"
+`;
+
+exports[`file _headers can generate default file with a public path as url 1`] = `
+"## Created with https://github.com/bazzite/nuxt-netlify
+/*
+  Referrer-Policy: origin
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: DENY
+  X-XSS-Protection: 1; mode=block
+
+/sw.js
+  Cache-Control: no-cache
+
+"
+`;
+
+exports[`file _headers can sort headers alphabetically 1`] = `
+"## Created with https://github.com/bazzite/nuxt-netlify
+/*
+  X-XSS-Protection: 1; mode=block
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: origin
+
+/_nuxt/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/sw.js
+  Cache-Control: no-cache
+
+"
+`;
