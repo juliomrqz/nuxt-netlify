@@ -1,6 +1,6 @@
 {
   "name": "@bazzite/nuxt-netlify",
-  "version": "0.1.0-alpha.1",
+  "version": "0.1.0-beta.1",
   "description": "Dynamically generate _headers and _redirects files for Netlify in your Nuxt.js projects.",
   "main": "lib/index.js",
   "directories": {
