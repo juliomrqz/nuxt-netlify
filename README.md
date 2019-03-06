@@ -1,4 +1,5 @@
 [![Bazzite Project](https://img.shields.io/badge/Bazzite-project-blue.svg)](https://www.bazzite.com/docs/nuxt-netlify)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/a55402d7c89b4084882c3362427132d8)](https://www.codacy.com/app/bazzite/nuxt-netlify?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=bazzite/nuxt-netlify&amp;utm_campaign=Badge_Grade)
 [![Travis](https://img.shields.io/travis/bazzite/nuxt-netlify.svg)](https://travis-ci.org/bazzite/nuxt-netlify)
 [![David](https://img.shields.io/david/peer/bazzite/nuxt-netlify.svg)](https://david-dm.org/bazzite/nuxt-netlify?type=peer)
 [![David](https://img.shields.io/david/dev/bazzite/nuxt-netlify.svg)](https://david-dm.org/bazzite/nuxt-netlify?type=dev)
@@ -10,7 +11,7 @@
 
 **Warning:** Alpha State
 
-Automatically generates `_headers` and `_redirects` for Netlify in Nuxt.js projects.
+Dynamically generate `_headers` and `_redirects` files for Netlify in your Nuxt.js projects.
 
 ## License
 
