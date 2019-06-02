@@ -195,9 +195,10 @@ See the [configuration][docs-configuration] section for all available options.
 
 ## Documentation & Support
 
-- If you want extra details of how to configure and use this project, the **full documentation** is available at [https://www.bazzite.com/docs/nuxt-netlify/][docs].
-- For **Bug reports** or **Feature requests**, use the [Issues section][issues].
-- You may also want to **follow the company** supporting this project [on Twitter][twitter].
+- 📄 If you want extra details of how to configure and use this project, the **full documentation** is available at [https://www.bazzite.com/docs/nuxt-netlify/][docs].
+- 🐞 For **Bug reports** or **Feature requests**, use the [Issues section][issues].
+- 💬 For **questions**, go to [https://spectrum.chat/bazzite/open-source][spectrum-chat].
+- 🚀 You may also want to **follow the company** supporting this project [on Twitter][twitter].
 
 ## Professional Support
 
@@ -220,6 +221,7 @@ Code released under the [MIT License][license-page].
 [netlify-headers-and-basic-auth]: https://www.netlify.com/docs/headers-and-basic-auth/
 [issues]: https://github.com/bazzite/nuxt-netlify/issues
 [twitter]: https://bazzite.xyz/Twitter
+[spectrum-chat]: https://spectrum.chat/bazzite/login?r=https://spectrum.chat/bazzite/open-source
 [bazzite-website]: https://www.bazzite.com?utm_source=github&utm_medium=readme&utm_campaign=nuxt-netlify
 [contact-page]: https://www.bazzite.com/contact?utm_source=github&utm_medium=readme&utm_campaign=nuxt-netlify
 [code-of-conduct]: https://www.bazzite.com/open-source/code-of-conduct?utm_source=github&utm_medium=readme&utm_campaign=nuxt-netlify
