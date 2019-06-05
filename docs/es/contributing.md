@@ -1,12 +1,11 @@
 ---
-permalink: /docs/nuxt-netlify/contributing
+title: "Contribución"
 description: "Pasos para facilitar el desarrollo y la depuración de Nuxt Netlify."
+permalink: /docs/nuxt-netlify/contributing
 created: "2019-03-06T15:43:56.239Z"
 published: "2019-03-06T15:43:56.239Z"
-title: "Contribución"
+modified: "2019-06-05T12:51:34.314Z"
 ---
-
-<Canonical />
 
 # Contribución
 

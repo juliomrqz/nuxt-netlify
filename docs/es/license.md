@@ -1,9 +1,10 @@
 ---
-permalink: /docs/nuxt-netlify/license/
+title: "Licencia"
 description: "Licencia para Nuxt Netlify"
+permalink: /docs/nuxt-netlify/license/
 created: "2019-03-06T15:43:56.239Z"
 published: "2019-03-06T15:43:56.239Z"
-title: "Licencia"
+modified: "2019-06-05T12:51:34.314Z"
 ---
 
 # Licencia
@@ -12,7 +13,7 @@ title: "Licencia"
 Esta página sólo está disponible en inglés.
 :::
 
-```
+::: license
 MIT License
 
 Copyright (c) 2019 Bazzite
@@ -34,4 +35,4 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-```
+:::

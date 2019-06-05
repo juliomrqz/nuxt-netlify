@@ -1,12 +1,11 @@
 ---
-permalink: /docs/nuxt-netlify/
+title: "Overview"
 description: "Dynamically generate _headers and _redirects files for Netlify in your Nuxt.js projects"
+permalink: /docs/nuxt-netlify/
 created: "2019-03-06T15:43:56.239Z"
 published: "2019-03-06T15:43:56.239Z"
-title: "Overview"
+modified: "2019-06-05T12:51:34.314Z"
 ---
-
-<Canonical />
 
 # Nuxt Netlify
 

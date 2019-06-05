@@ -1,9 +1,10 @@
 ---
-permalink: /docs/nuxt-netlify/usage/
+title: "Uso"
 description: "La configuración por defecto generará un archivo `_redirects` vacío y un archivos `_headers` con algunos headers de securidad y cache"
+permalink: /docs/nuxt-netlify/usage/
 created: "2019-03-06T15:43:56.239Z"
 published: "2019-03-06T15:43:56.239Z"
-title: "Uso"
+modified: "2019-06-05T12:51:34.314Z"
 sidebarDepth: 3
 ---
 

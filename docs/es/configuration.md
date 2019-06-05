@@ -1,9 +1,10 @@
 ---
-permalink: /docs/nuxt-netlify/configuration/
+title: "Configuración"
 description: "Las opciones por defecto podrían ser suficiente, pero puedes cambiar cada una de las opciones disponibles si así los deseas."
+permalink: /docs/nuxt-netlify/configuration/
 created: "2019-03-06T15:43:56.239Z"
 published: "2019-03-06T15:43:56.239Z"
-title: "Configuración"
+modified: "2019-06-05T12:51:34.314Z"
 ---
 
 # Configuración
