@@ -11,6 +11,8 @@
 
 Dynamically generate `_headers` and `_redirects` files for Netlify in your Nuxt.js projects.
 
+This module supports the creation of [**redirects**][netlify-redirects] and [**header**][netlify-headers-and-basic-auth] rules for your Netlify site: you can easily configure custom headers, basic auth, redirect instructions and rewrite rules from your _nuxt config file_.
+
 *Read this in other languages: [English][docs], [Español][docs-es]*
 
 
@@ -130,7 +132,7 @@ that will generate:
 
 ### Redirects
 
-You can also add redirects, as many as you like. You should pass in an array of objects with the redirection attributes. For example:
+You can also add [redirects][netlify-redirects], as many as you like. You should pass in an array of objects with the redirection attributes. For example:
 
 
 ```js
@@ -219,6 +221,7 @@ Code released under the [MIT License][license-page].
 [docs-configuration]: https://www.bazzite.com/docs/nuxt-netlify/configuration/?utm_source=github&utm_medium=readme&utm_campaign=nuxt-netlify
 [nuxt-docs-build-publicPath]: https://nuxtjs.org/api/configuration-build#publicPath
 [netlify-headers-and-basic-auth]: https://www.netlify.com/docs/headers-and-basic-auth/
+[netlify-redirects]: https://www.netlify.com/docs/redirects/
 [issues]: https://github.com/bazzite/nuxt-netlify/issues
 [twitter]: https://bazzite.xyz/Twitter
 [spectrum-chat]: https://spectrum.chat/bazzite/login?r=https://spectrum.chat/bazzite/open-source

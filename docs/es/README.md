@@ -4,12 +4,14 @@ description: "Genera dinámicamente archivos _headers y _redirects para Netlify 
 permalink: /docs/nuxt-netlify/
 created: "2019-03-06T15:43:56.239Z"
 published: "2019-03-06T15:43:56.239Z"
-modified: "2019-06-05T12:51:34.314Z"
+modified: "2019-06-12T00:55:34.687Z"
 ---
 
 # Nuxt Netlify
 
 Genera dinámicamente archivos `_headers` y `_redirects` para Netlify en tus proyectos de Nuxt.js.
+
+Este módulo soporta la creación de reglas de [**redirecciones**][netlify-redirects] y [**cabecera**][netlify-headers-and-basic-auth] para tu sitio Netlify: puedes configurar fácilmente cabeceras personalizadas, autenticación básica, instrucciones de redirección y reglas de reescritura desde su archivo de configuración nuxt.
 
 ## Instalación
 
@@ -50,3 +52,6 @@ o
   ]
 }
 ```
+
+[netlify-headers-and-basic-auth]: https://www.netlify.com/docs/headers-and-basic-auth/
+[netlify-redirects]: https://www.netlify.com/docs/redirects/
