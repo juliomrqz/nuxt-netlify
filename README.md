@@ -216,6 +216,8 @@ Everyone participating in this project is expected to agree to abide by the [Cod
 Code released under the [MIT License][license-page].
 
 
+![](https://ga-beacon.appspot.com/UA-65885578-17/bazzite/nuxt-netlify?pixel)
+
 [docs]: https://www.bazzite.com/docs/nuxt-netlify/?utm_source=github&utm_medium=readme&utm_campaign=nuxt-netlify
 [docs-es]: https://www.bazzite.com/es/docs/nuxt-netlify/?utm_source=github&utm_medium=readme&utm_campaign=nuxt-netlify
 [docs-configuration]: https://www.bazzite.com/docs/nuxt-netlify/configuration/?utm_source=github&utm_medium=readme&utm_campaign=nuxt-netlify
