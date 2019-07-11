@@ -2112,7 +2112,7 @@ create-hmac@^1.1.0, create-hmac@^1.1.2, create-hmac@^1.1.4:
     safe-buffer "^5.0.1"
     sha.js "^2.4.8"
 
-cross-env@^5.2.0:
+cross-env@5.2.0:
   version "5.2.0"
   resolved "https://registry.yarnpkg.com/cross-env/-/cross-env-5.2.0.tgz#6ecd4c015d5773e614039ee529076669b9d126f2"
   integrity sha512-jtdNFfFW1hB7sMhr/H6rW1Z45LFqyI431m3qU6bFXcQ3Eh7LtBuG3h74o7ohHZ3crrRkkqHlo4jYHFPcjroANg==
@@ -4336,7 +4336,7 @@ node-releases@^1.1.8:
   dependencies:
     semver "^5.3.0"
 
-nodemon@^1.18.9:
+nodemon@1.18.10:
   version "1.18.10"
   resolved "https://registry.yarnpkg.com/nodemon/-/nodemon-1.18.10.tgz#3ba63f64eb4c283cf3e4f75f30817e9d4f393afe"
   integrity sha512-we51yBb1TfEvZamFchRgcfLbVYgg0xlGbyXmOtbBzDwxwgewYS/YbZ5tnlnsH51+AoSTTsT3A2E/FloUbtH8cQ==
@@ -4436,7 +4436,7 @@ number-is-nan@^1.0.0:
   resolved "https://registry.yarnpkg.com/number-is-nan/-/number-is-nan-1.0.1.tgz#097b602b53422a522c1afb8790318336941a011d"
   integrity sha1-CXtgK1NCKlIsGvuHkDGDNpQaAR0=
 
-nuxt@^2.4.0:
+nuxt@2.4.5:
   version "2.4.5"
   resolved "https://registry.yarnpkg.com/nuxt/-/nuxt-2.4.5.tgz#3f3256c47e78038ef8081e522181aa2578bddcea"
   integrity sha512-y2p0q58C8yyNr8zg9wEx5ZNhAYe0sbMXHeproGiCKXc2GW7TR6KtZ9/9IBeVlz7HwvoZW+VXIt2m/oecI9IbqQ==
