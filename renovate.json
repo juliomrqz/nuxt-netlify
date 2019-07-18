@@ -3,3 +3,15 @@
     "config:base"
   ]
 }
+
+{
+  "extends": [
+    "config:base"
+  ],
+  "timezone": "America/New_York",
+  "schedule": [
+    "after 10pm every weekday",
+    "before 6am every weekday",
+    "every weekend"
+  ]
+}
