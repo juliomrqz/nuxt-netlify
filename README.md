@@ -3,7 +3,6 @@
 [![Travis](https://img.shields.io/travis/bazzite/nuxt-netlify.svg)](https://travis-ci.org/bazzite/nuxt-netlify)
 [![David](https://img.shields.io/david/peer/bazzite/nuxt-netlify.svg)](https://david-dm.org/bazzite/nuxt-netlify?type=peer)
 [![David](https://img.shields.io/david/dev/bazzite/nuxt-netlify.svg)](https://david-dm.org/bazzite/nuxt-netlify?type=dev)
-[![Greenkeeper badge](https://badges.greenkeeper.io/bazzite/nuxt-netlify.svg)](https://greenkeeper.io/)
 [![version](https://img.shields.io/npm/v/@bazzite/nuxt-netlify.svg)](https://www.npmjs.com/package/@bazzite/nuxt-netlify)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/bazzite/nuxt-netlify/develop/LICENSE)
 
