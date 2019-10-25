@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "cross-env": "6.0.3",
-    "nuxt": "2.10.1"
+    "nuxt": "2.10.2"
   },
   "devDependencies": {
     "nodemon": "1.19.4"
