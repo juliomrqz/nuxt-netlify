@@ -29,8 +29,8 @@
   "devDependencies": {
     "@commitlint/cli": "8.2.0",
     "@commitlint/config-conventional": "8.2.0",
-    "conventional-changelog-cli": "2.0.27",
-    "eslint": "6.6.0",
+    "conventional-changelog-cli": "2.0.28",
+    "eslint": "6.7.0",
     "eslint-config-dev": "2.0.0",
     "eslint-config-standard": "13.0.1",
     "eslint-plugin-import": "2.18.2",
@@ -39,10 +39,10 @@
     "eslint-plugin-promise": "4.2.1",
     "eslint-plugin-standard": "4.0.1",
     "eslint-plugin-vue": "5.2.3",
-    "husky": "3.0.9",
+    "husky": "3.1.0",
     "immutable": "4.0.0-rc.12",
     "jest": "24.9.0",
-    "sharp": "0.23.2",
+    "sharp": "0.23.3",
     "upath": "1.2.0"
   },
   "husky": {
