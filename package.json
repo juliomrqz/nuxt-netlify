@@ -23,7 +23,7 @@
   "homepage": "https://www.bazzite.com/docs/nuxt-netlify/?utm_source=npm&utm_medium=readme&utm_campaign=nuxt-netlify",
   "dependencies": {
     "consola": "^2.11.3",
-    "fs-extra": "^8.1.0",
+    "fs-extra": "^9.0.0",
     "lodash.template": "^4.5.0"
   },
   "devDependencies": {
