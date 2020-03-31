@@ -17,7 +17,7 @@ This module supports the creation of [**redirects**][netlify-redirects] and [**h
 
 ## Installation
 
-:warning: `nuxt >= 2` is required.
+:warning: `node >= 10` and `nuxt >= 2` are required.
 
 
 ```bash 

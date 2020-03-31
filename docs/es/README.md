@@ -4,7 +4,7 @@ description: "Genera dinámicamente archivos _headers y _redirects para Netlify 
 permalink: /docs/nuxt-netlify/
 created: "2019-03-06T15:43:56.239Z"
 published: "2019-03-06T15:43:56.239Z"
-modified: "2019-06-12T00:55:34.687Z"
+modified: "2020-03-31T20:07:29Z"
 ---
 
 # Nuxt Netlify
@@ -16,7 +16,7 @@ Este módulo soporta la creación de reglas de [**redirecciones**][netlify-redir
 ## Instalación
 
 ::: warning Advertencia
-`nuxt >= 2` is requerido.
+`node >= 10` y `nuxt >= 2` son requeridos.
 :::
 
 ```bash 
