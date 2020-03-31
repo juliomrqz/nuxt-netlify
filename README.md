@@ -21,24 +21,28 @@ This module supports the creation of [**redirects**][netlify-redirects] and [**h
 
 
 ```bash 
-npm install @bazzite/nuxt-netlify
+npm install --save-dev @bazzite/nuxt-netlify
 ```
 
 or
 
 ```bash 
-yarn add @bazzite/nuxt-netlify
+yarn add --dev @bazzite/nuxt-netlify
 ```
 
-Add `@bazzite/nuxt-netlify` to the modules section of `nuxt.config.js`:
+Add `@bazzite/nuxt-netlify` to the `buildModules` section of `nuxt.config.js`:
+
+:warning: If you are using Nuxt `< 2.9.0`, use `modules` instead. 
 
 ```js
 {
-  modules: [
+  buildModules: [
     '@bazzite/nuxt-netlify',
   ],
 
-  netlify: { mergeSecurityHeaders: true }
+  netlify: { 
+    mergeSecurityHeaders: true 
+  }
 }
 ```
 
@@ -47,7 +51,7 @@ or
 
 ```js
 {
-  modules: [
+  buildModules: [
     [
       '@bazzite/nuxt-netlify',
       {

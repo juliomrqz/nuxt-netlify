@@ -4,7 +4,7 @@ description: "Dynamically generate _headers and _redirects files for Netlify in 
 permalink: /docs/nuxt-netlify/
 created: "2019-03-06T15:43:56.239Z"
 published: "2019-03-06T15:43:56.239Z"
-modified: "2020-03-31T20:07:29Z"
+modified: "2020-03-31T20:16:44Z"
 ---
 
 # Nuxt Netlify
@@ -21,24 +21,28 @@ This module supports the creation of [**redirects**][netlify-redirects] and [**h
 :::
 
 ```bash 
-npm install @bazzite/nuxt-netlify
+npm install --save-dev @bazzite/nuxt-netlify
 ```
 
 or
 
 ```bash 
-yarn add @bazzite/nuxt-netlify
+yarn add --dev @bazzite/nuxt-netlify
 ```
 
-Add `@bazzite/nuxt-netlify` to the modules section of `nuxt.config.js`:
+Add `@bazzite/nuxt-netlify` to the `buildModules` section of `nuxt.config.js`:
+
+:warning: If you are using Nuxt `< 2.9.0`, use `modules` instead. 
 
 ```js
 {
-  modules: [
+  buildModules: [
     '@bazzite/nuxt-netlify',
   ],
 
-  netlify: { }
+  netlify: { 
+    // configuration
+  }
 }
 ```
 
@@ -47,9 +51,11 @@ or
 
 ```js
 {
-  modules: [
+  buildModules: [
     [
-      '@bazzite/nuxt-netlify', { }
+      '@bazzite/nuxt-netlify', { 
+        // configuration
+      }
     ]
   ]
 }
