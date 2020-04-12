@@ -1,5 +1,5 @@
 {
-  "name": "@bazzite/nuxt-netlify",
+  "name": "@aceforth/nuxt-netlify",
   "version": "0.2.0",
   "description": "Dynamically generate _headers and _redirects files for Netlify in your Nuxt.js projects.",
   "main": "lib/index.js",
@@ -13,14 +13,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bazzite/nuxt-netlify.git"
+    "url": "git+https://github.com/aceforth/nuxt-netlify.git"
   },
-  "author": "Bazzite <opensource@bazzite.com>",
+  "author": "Aceforth <opensource@aceforth.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bazzite/nuxt-netlify/issues"
+    "url": "https://github.com/aceforth/nuxt-netlify/issues"
   },
-  "homepage": "https://www.bazzite.com/docs/nuxt-netlify/?utm_source=npm&utm_medium=readme&utm_campaign=nuxt-netlify",
+  "homepage": "https://aceforth.com/docs/nuxt-netlify/?utm_source=npm&utm_medium=readme&utm_campaign=nuxt-netlify",
   "dependencies": {
     "consola": "^2.11.3",
     "fs-extra": "^9.0.0",

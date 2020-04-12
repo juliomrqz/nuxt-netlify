@@ -4,7 +4,7 @@ description: "Steps for easier development and debugging purposes of Nuxt Netlif
 permalink: /docs/nuxt-netlify/contributing
 created: "2019-03-06T15:43:56.239Z"
 published: "2019-03-06T15:43:56.239Z"
-modified: "2019-06-05T12:51:34.314Z"
+modified: "2020-04-12T17:24:13Z"
 ---
 
 # Contributing
@@ -13,7 +13,7 @@ Please make sure to read this **Contributing Guide** before making a contributio
 
 ## Development setup
 
-1. Fork and clone the repo `https://github.com/bazzite/nuxt-netlify`
+1. Fork and clone the repo `https://github.com/aceforth/nuxt-netlify`
 2. Run `npm install` to install dependencies
 3. Run `npm test` to run validation
 4. Create a branch for your PR with `git checkout -b pr/your-branch-name`
@@ -70,4 +70,4 @@ npm run test
   - Provide detailed description of the bug in the PR. Live demo preferred.
 
 
-[issues-link]: https://github.com/bazzite/nuxt-netlify/issues
+[issues-link]: https://github.com/aceforth/nuxt-netlify/issues

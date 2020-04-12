@@ -1,12 +1,12 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`file _redirects can generate an empty file 1`] = `
-"## Created with https://github.com/bazzite/nuxt-netlify
+"## Created with https://github.com/aceforth/nuxt-netlify
 "
 `;
 
 exports[`file _redirects can generate multiple redirects 1`] = `
-"## Created with https://github.com/bazzite/nuxt-netlify
+"## Created with https://github.com/aceforth/nuxt-netlify
 /google    https://www.google.com    301
 /my-redirect    /    302
 http://blog.yoursite.com/*    https://www.yoursite.com/blog/:splat    301!
@@ -16,7 +16,7 @@ http://blog.yoursite.com/*    https://www.yoursite.com/blog/:splat    302!
 `;
 
 exports[`file _redirects can generate one redirect 1`] = `
-"## Created with https://github.com/bazzite/nuxt-netlify
+"## Created with https://github.com/aceforth/nuxt-netlify
 /google    https://www.google.com    301
 "
 `;

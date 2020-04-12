@@ -1,8 +1,8 @@
 {
-  "name": "@bazzite/nuxt-netlify-example",
+  "name": "@aceforth/nuxt-netlify-example",
   "version": "1.0.0",
   "description": "My mind-blowing Nuxt.js project",
-  "author": "Bazzite &lt;opensource@bazzite.com&gt;",
+  "author": "Aceforth <opensource@aceforth.com>",
   "private": true,
   "scripts": {
     "dev": "nuxt",
