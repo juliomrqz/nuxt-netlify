@@ -1,6 +1,6 @@
 {
   "name": "@aceforth/nuxt-netlify",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "description": "Dynamically generate _headers and _redirects files for Netlify in your Nuxt.js projects.",
   "main": "lib/index.js",
   "directories": {
