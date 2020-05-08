@@ -22,7 +22,7 @@
   },
   "homepage": "https://aceforth.com/docs/nuxt-netlify/?utm_source=npm&utm_medium=readme&utm_campaign=nuxt-netlify",
   "dependencies": {
-    "consola": "^2.11.3",
+    "consola": "^2.12.1",
     "fs-extra": "^9.0.0",
     "lodash.template": "^4.5.0"
   },
@@ -34,14 +34,14 @@
     "eslint-config-dev": "2.0.0",
     "eslint-config-standard": "14.1.1",
     "eslint-plugin-import": "2.20.2",
-    "eslint-plugin-jest": "23.8.2",
+    "eslint-plugin-jest": "23.9.0",
     "eslint-plugin-node": "11.1.0",
     "eslint-plugin-promise": "4.2.1",
     "eslint-plugin-standard": "4.0.1",
     "eslint-plugin-vue": "6.2.2",
     "husky": "4.2.5",
     "immutable": "4.0.0-rc.12",
-    "jest": "25.3.0",
+    "jest": "25.5.4",
     "sharp": "0.25.2",
     "upath": "1.2.0"
   },
