@@ -41,7 +41,7 @@
     "eslint-plugin-vue": "6.2.2",
     "husky": "4.2.5",
     "immutable": "4.0.0-rc.12",
-    "jest": "25.5.4",
+    "jest": "26.0.1",
     "sharp": "0.25.3",
     "upath": "1.2.0"
   },
