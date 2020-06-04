@@ -23,7 +23,7 @@
   "homepage": "https://aceforth.com/docs/nuxt-netlify/?utm_source=npm&utm_medium=readme&utm_campaign=nuxt-netlify",
   "dependencies": {
     "consola": "^2.12.2",
-    "fs-extra": "^9.0.0",
+    "fs-extra": "^9.0.1",
     "lodash.template": "^4.5.0"
   },
   "devDependencies": {
