@@ -1,13 +1,12 @@
 ---
 title: "Configuration"
 description: "The default options could be enough, but you can overwrite every available option if you want to."
-permalink: /docs/nuxt-netlify/configuration/
-created: "2019-03-06T15:43:56.239Z"
-published: "2019-03-06T15:43:56.239Z"
-modified: "2019-06-05T12:51:34.314Z"
+created: "2019-03-06T15:43:56Z"
+published: "2019-03-06T15:43:56Z"
+modified: "2020-07-17T20:01:04Z"
+position: 3
+category: "Getting started"
 ---
-
-# Configuration
 
 The default options could be enough, but you can overwrite every available option if you want to.
 
@@ -120,9 +119,11 @@ Merge the default caching headers in `_headers`:
   Cache-Control: no-cache
 ```
 
-::: tip
+<docs-alert variant="info">
+
 The `/_nuxt/*` reference automatically changes with the value of [`build.publicPath`][nuxt-docs-build-publicPath].
-:::
+
+</docs-alert>
 
 
 ## transformHeaders

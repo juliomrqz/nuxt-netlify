@@ -1,13 +1,12 @@
 ---
 title: "Contributing"
 description: "Steps for easier development and debugging purposes of Nuxt Netlify."
-permalink: /docs/nuxt-netlify/contributing
-created: "2019-03-06T15:43:56.239Z"
-published: "2019-03-06T15:43:56.239Z"
-modified: "2020-04-12T17:24:13Z"
+created: "2019-03-06T15:43:56Z"
+published: "2019-03-06T15:43:56Z"
+modified: "2020-07-17T20:01:04Z"
+position: 4
+category: "Getting started"
 ---
-
-# Contributing
 
 Please make sure to read this **Contributing Guide** before making a contribution.
 

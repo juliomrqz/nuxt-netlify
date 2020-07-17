@@ -1,13 +1,12 @@
 ---
 title: "Contribución"
 description: "Pasos para facilitar el desarrollo y la depuración de Nuxt Netlify."
-permalink: /docs/nuxt-netlify/contributing
-created: "2019-03-06T15:43:56.239Z"
-published: "2019-03-06T15:43:56.239Z"
-modified: "2020-04-12T17:24:13Z"
+created: "2019-03-06T15:43:56Z"
+published: "2019-03-06T15:43:56Z"
+modified: "2020-07-17T20:01:04Z"
+position: 4
+category: "Primeros Pasos"
 ---
-
-# Contribución
 
 Asegúrese de leer esta **Guía de contribución** antes de hacer una contribución.
 
@@ -69,8 +68,5 @@ npm run test
 - Si corriges un error:
   - Proporciona una descripción detallada del error en el PR. Demo en vivo preferido.
 
-# Contributing
-
-Please make sure to read this **Contributing Guide** before making a contribution.
 
 [issues-link]: https://github.com/juliomrqz/nuxt-netlify/issues

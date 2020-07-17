@@ -1,14 +1,12 @@
 ---
 title: "Uso"
 description: "La configuración por defecto generará un archivo `_redirects` vacío y un archivos `_headers` con algunos headers de securidad y cache"
-permalink: /docs/nuxt-netlify/usage/
-created: "2019-03-06T15:43:56.239Z"
-published: "2019-03-06T15:43:56.239Z"
-modified: "2019-06-05T12:51:34.314Z"
-sidebarDepth: 3
+created: "2019-03-06T15:43:56Z"
+published: "2019-03-06T15:43:56Z"
+modified: "2020-07-17T20:01:04Z"
+position: 2
+category: "Primeros Pasos"
 ---
-
-# Uso
 
 La configuración por defecto generará un archivo `_redirects` vacío y un archivo `_headers` con algunas cabeceras de securidad y caché:
 
@@ -29,9 +27,11 @@ La configuración por defecto generará un archivo `_redirects` vacío y un arch
 ```
 
 
-::: tip
+<docs-alert variant="info">
+
 La referencia  `/_nuxt/*` automáticamente cambia con el valor de [`build.publicPath`][nuxt-docs-build-publicPath].
-:::
+
+</docs-alert>
 
 ## Cabeceras
 
@@ -141,7 +141,7 @@ que generará:
 ```
 
 
-Ve la sección de [configuración](./configuration.md) para todas las opciones disponibles.
+Ve la sección de [configuración](/es/docs/nuxt-netlify/configuration) para todas las opciones disponibles.
 
 
 

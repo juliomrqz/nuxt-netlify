@@ -1,19 +1,20 @@
 ---
 title: "Licencia"
 description: "Licencia para Nuxt Netlify"
-permalink: /docs/nuxt-netlify/license/
-created: "2019-03-06T15:43:56.239Z"
-published: "2019-03-06T15:43:56.239Z"
-modified: "2020-04-12T17:24:13Z"
+created: "2019-03-06T15:43:56Z"
+published: "2019-03-06T15:43:56Z"
+modified: "2020-07-17T20:01:04Z"
+position: 5
+category: "Primeros Pasos"
 ---
 
-# Licencia
+<docs-alert>
 
-::: warning Nota
 Esta página sólo está disponible en inglés.
-:::
 
-::: license
+</docs-alert>
+
+```
 MIT License
 
 Copyright (c) 2020 Julio Marquez
@@ -35,4 +36,4 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-:::
+```

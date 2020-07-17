@@ -1,10 +1,11 @@
 ---
 title: "Primeros Pasos"
 description: "Genera dinámicamente archivos _headers y _redirects para Netlify en tus proyectos de Nuxt.js"
-permalink: /docs/nuxt-netlify/
-created: "2019-03-06T15:43:56.239Z"
-published: "2019-03-06T15:43:56.239Z"
-modified: "2020-04-12T17:24:13Z"
+created: "2019-03-06T15:43:56Z"
+published: "2019-03-06T15:43:56Z"
+modified: "2020-07-17T20:01:04Z"
+position: 1
+category: "Primeros Pasos"
 ---
 
 # Nuxt Netlify
@@ -15,23 +16,36 @@ Este módulo soporta la creación de reglas de [**redirecciones**][netlify-redir
 
 ## Instalación
 
-::: warning Advertencia
+<docs-alert>
+
 `node >= 10` y `nuxt >= 2` son requeridos.
-:::
 
-```bash 
-npm install --save-dev @aceforth/nuxt-netlify
-```
+</docs-alert>
 
-o
+<docs-code-group>
+  <docs-code-block label="Yarn" active>
 
-```bash 
-yarn add --dev @aceforth/nuxt-netlify
-```
+  ```bash
+  yarn add --dev @aceforth/nuxt-netlify
+  ```
+
+  </docs-code-block>
+  <docs-code-block label="NPM">
+
+  ```bash
+  npm install --save-dev @aceforth/nuxt-netlify
+  ```
+
+  </docs-code-block>
+</docs-code-group>
 
 Añade `@aceforth/nuxt-netlify` a la sección `buildModules` de `nuxt.config.js`:
 
-:warning: Si estás usando Nuxt `< 2.9.0`, usa `modules` en su lugar.
+<docs-alert>
+
+Si estás usando Nuxt `< 2.9.0`, usa `modules` en su lugar.
+
+</docs-alert>
 
 ```js
 {

@@ -202,7 +202,7 @@ See the [configuration][docs-configuration] section for all available options.
 - 📄 If you want extra details of how to configure and use this project, the **full documentation** is available at [https://marquez.co/docs/nuxt-netlify/][docs].
 - 🐞 For **Bug reports** or **Feature requests**, use the [Issues section][issues].
 - 💬 For **questions**, you can also use the [Issues section][issues].
-- 🚀 You may also want to **follow the company** supporting this project [on Twitter][twitter].
+- 🚀 You may also want to **follow me** [on Twitter][twitter].
 
 ## Professional Support
 

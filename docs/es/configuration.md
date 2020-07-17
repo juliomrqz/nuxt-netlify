@@ -1,13 +1,12 @@
 ---
 title: "Configuración"
 description: "Las opciones por defecto podrían ser suficiente, pero puedes cambiar cada una de las opciones disponibles si así los deseas."
-permalink: /docs/nuxt-netlify/configuration/
-created: "2019-03-06T15:43:56.239Z"
-published: "2019-03-06T15:43:56.239Z"
-modified: "2019-06-05T12:51:34.314Z"
+created: "2019-03-06T15:43:56Z"
+published: "2019-03-06T15:43:56Z"
+modified: "2020-07-17T20:01:04Z"
+position: 3
+category: "Primeros Pasos"
 ---
-
-# Configuración
 
 Las opciones por defecto podrían ser suficiente, pero puedes cambiar cada una de las opciones disponibles si así los deseas.
 
@@ -118,9 +117,11 @@ Une las cabeceras por defecto de seguridad caché en `_headers`:
   Cache-Control: no-cache
 ```
 
-::: tip
+<docs-alert variant="info">
+
 La referencia  `/_nuxt/*` automáticamente cambia con el valor de [`build.publicPath`][nuxt-docs-build-publicPath].
-:::
+
+</docs-alert>
 
 
 ## transformHeaders
