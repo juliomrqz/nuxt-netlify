@@ -13,7 +13,7 @@ Asegúrese de leer esta **Guía de contribución** antes de hacer una contribuci
 
 ## Configuración de desarrollo
 
-1. Haz un Fork y clona el repositorio `https://github.com/aceforth/nuxt-netlify`
+1. Haz un Fork y clona el repositorio `https://github.com/juliomrqz/nuxt-netlify`
 2. Ejecuta `npm install` para instalar dependencias
 3. Ejecuta `npm test` para ejecutar la validación
 4. Crea una rama para tu PR con `git checkout -b pr/your-branch-name`
@@ -73,4 +73,4 @@ npm run test
 
 Please make sure to read this **Contributing Guide** before making a contribution.
 
-[issues-link]: https://github.com/aceforth/nuxt-netlify/issues
+[issues-link]: https://github.com/juliomrqz/nuxt-netlify/issues

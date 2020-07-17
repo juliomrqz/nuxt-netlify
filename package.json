@@ -13,14 +13,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aceforth/nuxt-netlify.git"
+    "url": "git+https://github.com/juliomrqz/nuxt-netlify.git"
   },
-  "author": "Aceforth <opensource@aceforth.com>",
+  "author": "Julio Marquez <opensource@marquez.co>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/aceforth/nuxt-netlify/issues"
+    "url": "https://github.com/juliomrqz/nuxt-netlify/issues"
   },
-  "homepage": "https://aceforth.com/docs/nuxt-netlify/?utm_source=npm&utm_medium=readme&utm_campaign=nuxt-netlify",
+  "homepage": "https://marquez.co/docs/nuxt-netlify/?utm_source=npm&utm_medium=readme&utm_campaign=nuxt-netlify",
   "dependencies": {
     "consola": "^2.14.0",
     "fs-extra": "^9.0.1",

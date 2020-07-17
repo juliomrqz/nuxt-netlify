@@ -2,7 +2,7 @@
   "name": "@aceforth/nuxt-netlify-example",
   "version": "1.0.0",
   "description": "My mind-blowing Nuxt.js project",
-  "author": "Aceforth <opensource@aceforth.com>",
+  "author": "Julio Marquez <opensource@marquez.co>",
   "private": true,
   "scripts": {
     "dev": "nuxt",

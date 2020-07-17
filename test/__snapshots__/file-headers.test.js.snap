@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`file _headers can add extra headers 1`] = `
-"## Created with https://github.com/aceforth/nuxt-netlify
+"## Created with https://github.com/juliomrqz/nuxt-netlify
 /templates/index.html
   X-Frame-Options: DENY
   X-XSS-Protection: 1; mode=block
@@ -28,7 +28,7 @@ exports[`file _headers can add extra headers 1`] = `
 `;
 
 exports[`file _headers can add extra headers with no defaults 1`] = `
-"## Created with https://github.com/aceforth/nuxt-netlify
+"## Created with https://github.com/juliomrqz/nuxt-netlify
 /templates/index.html
   X-Frame-Options: DENY
   X-XSS-Protection: 1; mode=block
@@ -43,7 +43,7 @@ exports[`file _headers can add extra headers with no defaults 1`] = `
 `;
 
 exports[`file _headers can disable caching headers 1`] = `
-"## Created with https://github.com/aceforth/nuxt-netlify
+"## Created with https://github.com/juliomrqz/nuxt-netlify
 /*
   Referrer-Policy: origin
   X-Content-Type-Options: nosniff
@@ -54,12 +54,12 @@ exports[`file _headers can disable caching headers 1`] = `
 `;
 
 exports[`file _headers can disable security & caching headers 1`] = `
-"## Created with https://github.com/aceforth/nuxt-netlify
+"## Created with https://github.com/juliomrqz/nuxt-netlify
 "
 `;
 
 exports[`file _headers can disable security headers 1`] = `
-"## Created with https://github.com/aceforth/nuxt-netlify
+"## Created with https://github.com/juliomrqz/nuxt-netlify
 /_nuxt/*
   Cache-Control: public, max-age=31536000, immutable
 
@@ -70,7 +70,7 @@ exports[`file _headers can disable security headers 1`] = `
 `;
 
 exports[`file _headers can generate default file 1`] = `
-"## Created with https://github.com/aceforth/nuxt-netlify
+"## Created with https://github.com/juliomrqz/nuxt-netlify
 /*
   Referrer-Policy: origin
   X-Content-Type-Options: nosniff
@@ -87,7 +87,7 @@ exports[`file _headers can generate default file 1`] = `
 `;
 
 exports[`file _headers can generate default file with a public path as url 1`] = `
-"## Created with https://github.com/aceforth/nuxt-netlify
+"## Created with https://github.com/juliomrqz/nuxt-netlify
 /*
   Referrer-Policy: origin
   X-Content-Type-Options: nosniff
@@ -101,7 +101,7 @@ exports[`file _headers can generate default file with a public path as url 1`] =
 `;
 
 exports[`file _headers can sort headers alphabetically 1`] = `
-"## Created with https://github.com/aceforth/nuxt-netlify
+"## Created with https://github.com/juliomrqz/nuxt-netlify
 /*
   X-XSS-Protection: 1; mode=block
   X-Frame-Options: DENY
