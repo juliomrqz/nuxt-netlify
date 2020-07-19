@@ -1,3 +1,14 @@
+# [1.1.0](https://github.com/juliomrqz/nuxt-netlify/compare/v1.0.0...v1.1.0) (2020-07-19)
+
+
+* dependencies updates
+
+### Refactor
+
+* update layout of docs articles ([08ea91a](https://github.com/juliomrqz/nuxt-optimized-images/commit/08ea91a4472654d764d83f01d52d7a16ff2ac82b))
+* update project owner ([18216ad](https://github.com/juliomrqz/nuxt-optimized-images/commit/18216ad0cb2592770db6f4cb08f0d41815e8d154))
+
+
 # [1.0.0](https://github.com/juliomrqz/nuxt-netlify/compare/v0.2.0...v1.0.0) (2020-04-12)
 
 
