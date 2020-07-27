@@ -1,9 +1,9 @@
 ---
 title: "License"
 description: "License of Nuxt Optimized Images"
-created: "2019-03-06T15:43:56Z"
-published: "2019-03-06T15:43:56Z"
-modified: "2020-07-17T20:01:04Z"
+createdAt: "2019-03-06T15:43:56Z"
+publishedAt: "2019-03-06T15:43:56Z"
+updatedAt: "2020-07-17T20:01:04Z"
 position: 5
 category: "Getting started"
 ---

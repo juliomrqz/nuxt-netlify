@@ -1,9 +1,9 @@
 ---
 title: "Uso"
 description: "La configuración por defecto generará un archivo `_redirects` vacío y un archivos `_headers` con algunos headers de securidad y cache"
-created: "2019-03-06T15:43:56Z"
-published: "2019-03-06T15:43:56Z"
-modified: "2020-07-17T20:01:04Z"
+createdAt: "2019-03-06T15:43:56Z"
+publishedAt: "2019-03-06T15:43:56Z"
+updatedAt: "2020-07-17T20:01:04Z"
 position: 2
 category: "Primeros Pasos"
 ---

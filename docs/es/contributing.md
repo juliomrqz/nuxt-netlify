@@ -1,9 +1,9 @@
 ---
 title: "Contribución"
 description: "Pasos para facilitar el desarrollo y la depuración de Nuxt Netlify."
-created: "2019-03-06T15:43:56Z"
-published: "2019-03-06T15:43:56Z"
-modified: "2020-07-17T20:01:04Z"
+createdAt: "2019-03-06T15:43:56Z"
+publishedAt: "2019-03-06T15:43:56Z"
+updatedAt: "2020-07-17T20:01:04Z"
 position: 4
 category: "Primeros Pasos"
 ---

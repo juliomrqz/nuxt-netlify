@@ -1,9 +1,9 @@
 ---
 title: "Usage"
 description: "The default configuration will generate an empty `_redirects` file and a `_headers` file with some caching and security headers"
-created: "2019-03-06T15:43:56Z"
-published: "2019-03-06T15:43:56Z"
-modified: "2020-07-17T20:01:04Z"
+createdAt: "2019-03-06T15:43:56Z"
+publishedAt: "2019-03-06T15:43:56Z"
+updatedAt: "2020-07-17T20:01:04Z"
 position: 2
 category: "Getting started"
 ---
