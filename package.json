@@ -30,7 +30,7 @@
     "@commitlint/cli": "11.0.0",
     "@commitlint/config-conventional": "11.0.0",
     "conventional-changelog-cli": "2.1.0",
-    "eslint": "7.12.0",
+    "eslint": "7.12.1",
     "eslint-config-dev": "2.0.0",
     "eslint-config-standard": "14.1.1",
     "eslint-plugin-import": "2.22.1",
@@ -41,7 +41,7 @@
     "eslint-plugin-vue": "7.1.0",
     "husky": "4.3.0",
     "immutable": "4.0.0-rc.12",
-    "jest": "26.6.1",
+    "jest": "26.6.2",
     "sharp": "0.26.2",
     "upath": "2.0.0"
   },
