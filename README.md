@@ -134,7 +134,7 @@ that will generate:
 
 ### Redirects
 
-You can also add [redirects][netlify-redirects], as many as you like. You should pass in an array of objects with the redirection attributes. For example:
+You can also add [redirects][netlify-redirects], as many as you like. You should pass in an array of objects (or a function that returns the array) with the redirection attributes. For example:
 
 
 ```js

@@ -36,12 +36,12 @@ You should pass in a object with string keys (representing the paths) and an arr
 
 ## redirects
 
-- Type: `array`
+- Type: `array, function`
 - Default: `[]`
 
 Adds extra redirects.
 
-You should pass in an array of objects with the redirection attributes. The available attributes for each redirect are:
+You should pass in an array of objects (or a function that returns the array) with the redirection attributes. The available attributes for each redirect are:
 
 - **from** (required): the path you want to redirect.
 - **to** (required): the URL or path you want to redirect to.
