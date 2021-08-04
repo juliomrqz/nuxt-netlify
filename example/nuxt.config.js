@@ -1,6 +1,37 @@
 const path = require('path')
 const pkg = require('./package')
 
+const demoRedirects = [
+  {
+    from: 'https://example.com/temp/*',
+    to: 'https://example.com/:splat*'
+  },
+  {
+    from: '/en/*',
+    to: '/en/404.html',
+    status: 404
+  },
+  {
+    from: '/articles',
+    to: '/posts/:tag/:id',
+    status: 301,
+    force: true,
+    query: {
+      id: ':id',
+      tag: ':tag',
+    }
+  },
+  {
+    from: '/china/*',
+    to: '/china/zh-cn/:splat',
+    status: 302,
+    conditions: {
+      Language: 'zh',
+      Country: 'cn,hk,tw',
+    }
+  }
+]
+
 module.exports = {
   mode: 'universal',
 
@@ -55,35 +86,12 @@ module.exports = {
     }
   },
   netlify: {
-    redirects: [
-      {
-        from: 'https://example.com/temp/*',
-        to: 'https://example.com/:splat*'
-      },
-      {
-        from: '/en/*',
-        to: '/en/404.html',
-        status: 404
-      },
-      {
-        from: '/articles',
-        to: '/posts/:tag/:id',
-        status: 301,
-        force: true,
-        query: {
-          id: ':id',
-          tag: ':tag',
-        }
-      },
-      {
-        from: '/china/*',
-        to: '/china/zh-cn/:splat',
-        status: 302,
-        conditions: {
-          Language: 'zh',
-          Country: 'cn,hk,tw',
-        }
-      }
-    ]
+    // redirects: demoRedirects,
+    async redirects() {
+      const getRedirects = () => new Promise(
+        resolve => setTimeout(resolve(demoRedirects), 500)
+      )
+      return await getRedirects()
+    }
   }
 }
