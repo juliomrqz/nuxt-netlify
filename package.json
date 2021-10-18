@@ -57,6 +57,6 @@
     "collectCoverage": true
   },
   "engines": {
-    "node": ">=v10.24.0"
+    "node": ">=v14.18.1"
   }
 }
