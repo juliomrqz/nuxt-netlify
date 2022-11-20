@@ -23,7 +23,7 @@
   "homepage": "https://marquez.co/docs/nuxt-netlify/?utm_source=npm&utm_medium=readme&utm_campaign=nuxt-netlify",
   "dependencies": {
     "consola": "^2.15.3",
-    "fs-extra": "^9.1.0",
+    "fs-extra": "^10.1.0",
     "lodash.template": "^4.5.0"
   },
   "devDependencies": {
